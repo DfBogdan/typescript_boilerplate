@@ -1,1 +1,1 @@
-export {model};
+export {model};s
