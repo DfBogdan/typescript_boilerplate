@@ -19,6 +19,8 @@
   "homepage": "https://github.com/DfBogdan/typescript_boilerplate#readme",
   "devDependencies": {
     "@types/node": "^16.10.0",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
   }
 }
