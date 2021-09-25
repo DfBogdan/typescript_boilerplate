@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon",
-    "lint": "eslint ./src --fix"
+    "lint": "eslint ./src --fix",
+    "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix"
   },
   "repository": {
     "type": "git",
@@ -37,10 +38,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run pretest"
     }
-  },
-  "lint-staged": {
-    "*": ["node_modules/.bin/eslint .", "git add"]
   }
 }
