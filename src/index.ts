@@ -1,1 +1,2 @@
-export {smollfasfall}; 
+"use strict"; 
+console.log('Hello there');
