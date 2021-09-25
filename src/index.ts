@@ -1,3 +1,5 @@
 "use strict"; 
 console.log('Hello there');
-export {ersss};
+
+const x = 2;
+x = 'f';
